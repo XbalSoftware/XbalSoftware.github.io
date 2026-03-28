@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EYEbrary User Manual</title>
+
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #0b0b0c;
+        color: #e5e5e7;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        border-bottom: 1px solid #2a2a2c;
+        padding-bottom: 6px;
+    }
+
+    h3 {
+        margin-top: 24px;
+        color: #9ecbff;
+    }
+
+    p {
+        color: #cfcfd2;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    .card {
+        background: #141416;
+        padding: 18px;
+        border-radius: 12px;
+        margin: 20px 0;
+        border: 1px solid #2a2a2c;
+    }
+
+    .screenshot {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .screenshot img {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #2a2a2c;
+    }
+
+    .caption {
+        font-size: 0.9rem;
+        color: #9a9aa0;
+        margin-top: 6px;
+    }
+
+    .tip {
+        background: #1c1c1f;
+        border-left: 4px solid #4da3ff;
+        padding: 12px;
+        margin-top: 16px;
+        border-radius: 6px;
+    }
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>EYEbrary User Manual</h1>
+<p>
+EYEbrary is a clinical documentation and patient-education tool designed to help eye care professionals quickly generate clear, polished patient reports from a reusable library of content.
+</p>
+
+<!-- ======================= -->
+<h2>Overview</h2>
+
+<div class="card">
+<ul>
+<li>Create and maintain your own library of clinical explanations and instructions</li>
+<li>Quickly assemble reports during or after patient encounters</li>
+<li>Export clean, patient-friendly PDFs</li>
+<li>No patient data is stored for privacy</li>
+</ul>
+</div>
+
+---
+
+<h2>Main Interface</h2>
+
+<div class="screenshot">
+<img src="images/new-report.png" alt="New Report Screen">
+<div class="caption">New Report screen</div>
+</div>
+
+<h3>Key areas</h3>
+<ul>
+<li><strong>Sidebar:</strong> Browse your library</li>
+<li><strong>Main panel:</strong> Build and edit the report</li>
+<li><strong>Top bar:</strong> Switch between New Report, Library, and Settings</li>
+</ul>
+
+---
+
+<h2>Creating a Report</h2>
+
+<h3>1. Add entries</h3>
+<ul>
+<li>Select entries from the sidebar</li>
+<li>They will appear in the report</li>
+</ul>
+
+<h3>2. Create custom content</h3>
+<ul>
+<li>Tap the <strong>+</strong> button in the top right</li>
+<li>Free-type a custom entry</li>
+</ul>
+
+<h3>3. Edit content</h3>
+<ul>
+<li>Tap any entry to modify title or content</li>
+<li>Tap <strong>Expand Content</strong> for full-screen editing</li>
+</ul>
+
+<h3>4. Export</h3>
+<ul>
+<li>Tap <strong>Export PDF</strong></li>
+<li>Share, print, or save</li>
+</ul>
+
+---
+
+<h2>Library</h2>
+
+<div class="screenshot">
+<img src="images/manage-library.png" alt="Library View">
+<div class="caption">Library tab</div>
+</div>
+
+<h3>What you can do</h3>
+<ul>
+<li>Create new entries</li>
+<li>Edit or delete entries</li>
+<li>Assign categories</li>
+<li>Mark favorites</li>
+<li>Search and sort</li>
+</ul>
+
+<div class="tip">
+Use favorites to surface commonly used entries in busy clinic workflows.
+</div>
+
+---
+
+<h2>Batch Select</h2>
+
+<div class="screenshot">
+<img src="images/batch-select.png" alt="Batch Select">
+<div class="caption">Batch Select mode</div>
+</div>
+
+<ul>
+<li>Select multiple entries at once</li>
+<li>Bulk assign categories</li>
+<li>Delete or export multiple entries</li>
+</ul>
+
+---
+
+<h2>Categories</h2>
+
+<div class="screenshot">
+<img src="images/categories.png" alt="Categories">
+<div class="caption">Category manager</div>
+</div>
+
+<ul>
+<li>Organize entries into clinical groupings</li>
+<li>Reorder categories to match your workflow</li>
+<li>Delete categories (entries fall back to General)</li>
+</ul>
+
+---
+
+<h2>Libraries</h2>
+
+<div class="screenshot">
+<img src="images/libraries.png" alt="Libraries">
+<div class="caption">Library manager</div>
+</div>
+
+<h3>Features</h3>
+<ul>
+<li>Multiple libraries supported</li>
+<li>Switch active library instantly</li>
+<li>Rename, reorder, or delete libraries</li>
+</ul>
+
+---
+
+<h2>Importing Libraries</h2>
+
+<div class="screenshot">
+<img src="images/import-dialog.png" alt="Import Dialog">
+<div class="caption">Import options</div>
+</div>
+
+<h3>Import options</h3>
+<ul>
+<li><strong>Merge into Active Library</strong> — adds or updates entries</li>
+<li><strong>Replace Active Library</strong> — fully replaces content</li>
+<li><strong>Import as New Library</strong> — creates a separate library</li>
+</ul>
+
+<div class="tip">
+Disable “Normalize text on import” if your library formatting is already correct.
+</div>
+
+---
+
+<h2>Settings</h2>
+
+<div class="screenshot">
+<img src="images/settings.png" alt="Settings">
+<div class="caption">Settings screen</div>
+</div>
+
+<ul>
+<li>Manage libraries</li>
+<li>Edit categories</li>
+<li>Import letterhead</li>
+<li>Reset app</li>
+</ul>
+
+---
+
+<h2>History</h2>
+
+<div class="screenshot">
+<img src="images/history.png" alt="History">
+<div class="caption">Recent reports</div>
+</div>
+
+<ul>
+<li>View recent reports</li>
+<li>Restore previous reports</li>
+<li>Patient names are never stored</li>
+</ul>
+
+---
+
+<h2>Privacy</h2>
+
+<div class="card">
+<ul>
+<li>Patient names are optional and never stored</li>
+<li>History contains no identifying information</li>
+<li>Draft restoration excludes patient names</li>
+</ul>
+</div>
+
+---
+
+<h2>Tips</h2>
+
+<ul>
+<li>Use <strong>Expand Content</strong> for long entries</li>
+<li>Use <strong>Batch Select</strong> for large edits</li>
+<li>Use <strong>⌘Z</strong> to undo with a keyboard</li>
+<li>Organize categories to match your clinical workflow</li>
+</ul>
+
+---
+
+<h2>Disclaimer</h2>
+
+<div class="card">
+<p>
+EYEbrary is a report-generation tool. All content should be reviewed and adjusted by the practitioner before being shared with patients.
+</p>
+</div>
+
+</div>
+</body>
+</html>
