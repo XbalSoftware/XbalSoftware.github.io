@@ -14,34 +14,23 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 950px;
     margin: auto;
     padding: 40px 20px;
 }
 
-h1 {
-    font-size: 2.4rem;
-    margin-bottom: 10px;
-}
-
+h1 { font-size: 2.4rem; }
 h2 {
     margin-top: 50px;
     border-bottom: 1px solid #2a2a2c;
     padding-bottom: 6px;
 }
-
 h3 {
     margin-top: 20px;
     color: #6fb3ff;
 }
 
-p {
-    color: #cfcfd2;
-}
-
-ul {
-    margin-left: 20px;
-}
+p { color: #cfcfd2; }
 
 .card {
     background: #141416;
@@ -58,7 +47,7 @@ ul {
 
 .screenshot img {
     width: 100%;
-    max-width: 750px;
+    max-width: 800px;
     border-radius: 12px;
     border: 1px solid #2a2a2c;
 }
@@ -73,8 +62,8 @@ ul {
     background: #1c1c1f;
     border-left: 4px solid #4da3ff;
     padding: 12px;
-    margin-top: 16px;
     border-radius: 6px;
+    margin-top: 16px;
 }
 </style>
 </head>
@@ -85,89 +74,109 @@ ul {
 <h1>EYEbrary User Manual</h1>
 
 <p>
-EYEbrary helps you create clear, professional patient reports using reusable clinical content. Build your own library, assemble reports quickly, and export polished PDFs.
+EYEbrary allows you to build a reusable clinical library and generate clean, patient-facing reports in seconds.
 </p>
 
-<!-- ================= -->
-<h2>New Report</h2>
+---
+
+<h2>1. New Report (Core Workflow)</h2>
 
 <div class="screenshot">
 <img src="images/Screenshot 2026-03-27 at 20.31.28.png">
-<div class="caption">Building a report in New Report</div>
+<div class="caption">Main report-building interface</div>
 </div>
 
-<h3>Workflow</h3>
+<h3>Basic flow</h3>
 <ul>
 <li>Select entries from the sidebar</li>
-<li>They appear in the report area</li>
-<li>Edit as needed</li>
+<li>They appear in the report</li>
+<li>Edit content as needed</li>
 <li>Export as PDF</li>
 </ul>
 
-<h3>Custom entries</h3>
+<h3>Create custom entries</h3>
 <ul>
 <li>Tap the <strong>+</strong> button (top right)</li>
-<li>Create a custom entry by free-typing</li>
+<li>Free-type new content</li>
 </ul>
 
-<h3>Editing content</h3>
-<ul>
-<li>Tap an entry to edit</li>
-<li>Tap <strong>Expand Content</strong> for full-screen editing</li>
-</ul>
+---
+
+<h2>2. Editing Entries</h2>
 
 <div class="screenshot">
 <img src="images/Screenshot 2026-03-27 at 20.29.48.png">
-<div class="caption">Expanded content editing</div>
+<div class="caption">Expanded content editing mode</div>
 </div>
 
+<ul>
+<li>Tap an entry to edit</li>
+<li>Tap <strong>Expand Content</strong> for full-screen editing</li>
+<li>Active entry is highlighted</li>
+</ul>
+
 <div class="tip">
-Expanded mode highlights the active entry and makes long edits much easier.
+Use Expand Content for long or detailed edits — it is much more reliable than inline editing.
 </div>
 
 ---
 
-<h2>Collapsed vs Expanded View</h2>
+<h2>3. Collapsed vs Expanded View</h2>
 
 <div class="screenshot">
 <img src="images/Screenshot 2026-03-27 at 20.31.48.png">
-<div class="caption">Collapsed entries view</div>
+<div class="caption">Collapsed view (clean overview)</div>
 </div>
 
 <ul>
-<li>Use collapse to simplify the view</li>
-<li>Use expand when actively editing</li>
+<li>Collapse entries for a quick overview</li>
+<li>Expand only when editing</li>
 </ul>
 
 ---
 
-<h2>Library</h2>
+<h2>4. Library (Content Management)</h2>
 
-<h3>Purpose</h3>
-<ul>
-<li>Create and manage reusable entries</li>
-<li>Organize by category</li>
-<li>Build your long-term knowledge base</li>
-</ul>
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.03.47.png">
+</div>
 
-<h3>Features</h3>
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.03.12.png">
+</div>
+
 <ul>
-<li>Search entries instantly</li>
-<li>Sort based on your workflow</li>
+<li>Create, edit, and delete entries</li>
+<li>Assign categories</li>
 <li>Mark favorites</li>
-<li>Edit or delete entries</li>
+<li>Search instantly</li>
 </ul>
-
-<div class="tip">
-Favorites are ideal for commonly used conditions or instructions.
-</div>
 
 ---
 
-<h2>Batch Select</h2>
+<h2>5. Entry Editing</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.02.52.png">
+</div>
 
 <ul>
-<li>Select multiple entries at once</li>
+<li>Edit title and content</li>
+<li>Toggle visibility in New Report</li>
+<li>Assign category</li>
+<li>Mark as favorite</li>
+</ul>
+
+---
+
+<h2>6. Batch Select (Bulk Actions)</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.08.37.png">
+</div>
+
+<ul>
+<li>Select multiple entries</li>
 <li>Apply bulk actions:
     <ul>
         <li>Delete</li>
@@ -177,53 +186,63 @@ Favorites are ideal for commonly used conditions or instructions.
 </li>
 </ul>
 
-<div class="tip">
-Batch Select is the fastest way to clean up or reorganize a large library.
-</div>
-
 ---
 
-<h2>Categories</h2>
+<h2>7. Categories</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.06.30.png">
+</div>
 
 <ul>
-<li>Used to organize your entries</li>
-<li>Appear in dropdown selectors (not chips)</li>
-<li>Fully customizable</li>
+<li>Create and reorder categories</li>
+<li>Delete categories (entries fall back to General)</li>
+<li>Controls filtering throughout the app</li>
 </ul>
 
 ---
 
-<h2>Libraries</h2>
+<h2>8. Libraries</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.06.08.png">
+</div>
 
 <ul>
 <li>Multiple libraries supported</li>
-<li>Switch instantly between them</li>
-<li>Useful for:
-    <ul>
-        <li>Different clinics</li>
-        <li>Specialty content</li>
-        <li>Testing vs production libraries</li>
-    </ul>
-</li>
+<li>Switch active library instantly</li>
+<li>Rename, delete, reorder</li>
 </ul>
 
 ---
 
-<h2>Importing Libraries</h2>
+<h2>9. Importing Libraries</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.05.46.png">
+</div>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.05.29.png">
+</div>
 
 <ul>
-<li><strong>Merge</strong> → adds or updates entries</li>
-<li><strong>Replace</strong> → completely overwrites library</li>
-<li><strong>New Library</strong> → creates a separate library</li>
+<li><strong>Merge</strong> → adds/updates entries</li>
+<li><strong>Replace</strong> → overwrites library</li>
+<li><strong>New Library</strong> → creates separate library</li>
 </ul>
 
 <div class="tip">
-Turn OFF “Normalize text on import” if your formatting is already correct.
+Disable “Normalize text on import” if formatting is already correct.
 </div>
 
 ---
 
-<h2>Settings</h2>
+<h2>10. Settings</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.04.09.png">
+</div>
 
 <ul>
 <li>Manage libraries</li>
@@ -234,46 +253,46 @@ Turn OFF “Normalize text on import” if your formatting is already correct.
 
 ---
 
-<h2>History</h2>
+<h2>11. Empty / Starting State</h2>
+
+<div class="screenshot">
+<img src="images/Screenshot 2026-03-27 at 20.02.11.png">
+</div>
 
 <ul>
-<li>View recent reports</li>
-<li>Restore previous work</li>
-<li>No patient data is stored</li>
+<li>Select entries from sidebar to begin</li>
 </ul>
 
 ---
 
-<h2>Privacy</h2>
+<h2>12. Privacy</h2>
 
 <div class="card">
 <ul>
 <li>Patient names are optional</li>
-<li>Patient names are NOT saved</li>
-<li>History contains no identifying information</li>
+<li>Patient names are NOT stored</li>
+<li>History contains no identifying data</li>
 <li>Draft restoration excludes patient names</li>
 </ul>
 </div>
 
 ---
 
-<h2>Tips</h2>
+<h2>13. Tips</h2>
 
 <ul>
-<li>Use Expand Content for long edits</li>
-<li>Use Batch Select for bulk actions</li>
-<li>Use ⌘Z / ⇧⌘Z for undo/redo</li>
-<li>Organize categories early — it pays off later</li>
+<li>Use Expand Content for reliable editing</li>
+<li>Use Batch Select for cleanup and organization</li>
+<li>Use favorites to speed up workflow</li>
+<li>Use ⌘Z for undo (keyboard)</li>
 </ul>
 
 ---
 
-<h2>Disclaimer</h2>
+<h2>14. Disclaimer</h2>
 
 <div class="card">
-<p>
-EYEbrary is a report-generation tool. All content should be reviewed and adjusted by the practitioner before sharing with patients.
-</p>
+EYEbrary is a report-generation tool. All content must be reviewed by the practitioner before sharing with patients.
 </div>
 
 </div>
